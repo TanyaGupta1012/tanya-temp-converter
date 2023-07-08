@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body::before{
+    content: "";
+    background: url("../img\ temp/images (2).jpeg") no-repeat center center/cover;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    position: absolute;
+}
+.container{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 11rem;
+    position: absolute;
+    border: 5px solid #aaa9b7;
+    border-radius: 51px;
+    left: 21rem;
+}
+label{
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin: 0px 0px;
+    padding: 0px 55px;
+    color: #060668;
+}
+#temp{
+    margin: 30px 75px;
+    padding: 4px 13px;
+    border-radius: 15px;
+    font-size: 1rem;
+    background: none;
+    color: #07077a;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid #07077a;
+    font-weight: 600;
+    outline: none;
+
+}
+select{
+   
+    padding: 3px 6px;
+    border-radius: 15px;
+    font-size: 1rem;
+    background: none;
+    color: #07077a;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid #07077a;
+    font-weight: 600;
+    outline: none;
+}
+#submit{
+    background: none ;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    margin: 16px 263px;
+    padding: 7px 23px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #07077a;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid #07077a;
+}
+form{
+    padding: 48px 24px;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-top: 15px;
+    color: #060668;
+    
+}
+#temp:hover{
+    background-color: #d0d0dd;
+}
+select:hover{
+    background-color: #d0d0dd;
+}
+#submit:hover{
+    background-color: #babacf;
+    font-size: 1rem;
+}
+
+
+
+
